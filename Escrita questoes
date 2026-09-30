@@ -1,0 +1,20 @@
+1-Evento click
+funcao adicionarFilme()
+
+2-filmes.push(novoFilme)/ adiciona um novo filme  e renderizarFilmes(); mostra na tela o conteudo novo
+
+3-A funcao do array e armazenar os filmes
+
+4-Porque ela pode ser chamada varias vezes
+
+5-Porque o localStorage armazena dados como texto (string)
+
+6-O JSON.parse() faz o contrário. Ele transforma a string que estava salva no localStorage de novo em um array JavaScript que podemos 
+usar.
+
+7-Os dados vao ser alterados mas a pagina nao vai ser atualizada
+
+8-O usuário clica em “Adicionar”.
+O evento click chama adicionarFilme().
+A função adiciona o filme ao array filmes.
+renderizarFilmes() atualiza a tela.
